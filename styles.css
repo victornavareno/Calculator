@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    width: 400px;
+    height: 600px;
+    margin-top: 90px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 20px;
+}
+
+.screen{
+    margin: 10%;
+    width: 80%;
+    height: 30%;
+    border-radius: inherit;
+    background-color: aliceblue;
+}
