@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(185, 255, 245);
+    background-color: rgb(255, 232, 196);
 }
 
 .calculator{
@@ -50,6 +50,26 @@ button{
     border-radius: 10px;
     cursor: pointer;
 }
+
+.btn-yellow{
+    background-color: rgb(255, 162, 0);
+    color: white;
+}
+
+.btn-grey{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-equal{
+    background-color: greenyellow;
+    color: white;
+}
+
+.btn-clear{
+    background-color: rgb(255, 82, 59);
+    color: white;
+}
+
 .screen{
     margin: 10%;
     width: 80%;
